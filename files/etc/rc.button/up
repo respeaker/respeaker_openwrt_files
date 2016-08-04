@@ -6,7 +6,7 @@ logger "$BUTTON $ACTION for $SEEN seconds"
 
 [ "${ACTION}" = "released" ] || exit 0
 
-/root/volume +
+/usr/bin/volume +
 
 if [ "$SEEN" -lt 1 ]
 then
